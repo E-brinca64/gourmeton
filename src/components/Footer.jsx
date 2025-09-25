@@ -19,15 +19,15 @@ function Footer() {
         </div>
 
         <div>
-            <h1 className="text-4xl font-bold my-2">Contatos</h1>
+            <h1 className="text-4xl font-bold mb-2 mt-4">Contatos</h1>
             <ul className="flex flex-col">
-                <li><a href="#" className="flex items-center"><IoIosPin size="2rem"/>Endereço foda fodastico</a></li>
-                <li><a href="#" className="flex items-center"><FaWhatsapp size="2rem"/>+11 99999-9999</a></li>
-                <li><a href="#" className="flex items-center"><MdOutlineMail size="2rem"/>gourmetOn@email.com</a></li>
+                <li><a href="#" className="flex items-center m-1.5"><IoIosPin size="2rem"/>Endereço foda fodastico</a></li>
+                <li><a href="#" className="flex items-center  m-1.5"><FaWhatsapp size="2rem"/>+11 99999-9999</a></li>
+                <li><a href="#" className="flex items-center  m-1.5"><MdOutlineMail size="2rem"/>gourmetOn@email.com</a></li>
             </ul>
         </div>
 
-        <div className="flex flex-col  ">
+        <div className="flex flex-col ">
             <h1 className="text-4xl font-bold my-2">Continue Atualizado</h1>
             <input type="email" placeholder='Digite seu email' className="p-4 bg-white"/>
             <button className="w-1/3 p-2 mt-3 bg-blue-700 text-white">inscrever-se</button>
