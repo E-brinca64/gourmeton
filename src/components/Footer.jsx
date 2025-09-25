@@ -19,9 +19,9 @@ function Footer() {
         </div>
 
         <div>
-            <h1>Contatos</h1>
+            <h1 className="text-4xl font-bold my-2">Contatos</h1>
             <ul className="flex flex-col">
-                <li><a href="#" className="flex items-center"><IoIosPin size="2rem"/>endereço foda fodastico</a></li>
+                <li><a href="#" className="flex items-center"><IoIosPin size="2rem"/>Endereço foda fodastico</a></li>
                 <li><a href="#" className="flex items-center"><FaWhatsapp size="2rem"/>+11 99999-9999</a></li>
                 <li><a href="#" className="flex items-center"><MdOutlineMail size="2rem"/>gourmetOn@email.com</a></li>
             </ul>
