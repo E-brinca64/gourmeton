@@ -2,7 +2,7 @@ import React from 'react'
 import video from "../assets/videoAlimentos.mp4"
 import LogoBranco from "../assets/logoGourmetOnBranco.png"
 import Navbar from './Navbar'
-function Main() {
+function Header() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
         <Navbar className=" absolute z-50"/>
@@ -30,4 +30,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Header
