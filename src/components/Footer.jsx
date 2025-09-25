@@ -27,10 +27,10 @@ function Footer() {
             </ul>
         </div>
 
-        <div className="flex flex-col">
-            <h1>Continue Atualizado</h1>
-            <input type="email" placeholder='Digite seu email' />
-            <button>inscrever-se</button>
+        <div className="flex flex-col  ">
+            <h1 className="text-4xl font-bold my-2">Continue Atualizado</h1>
+            <input type="email" placeholder='Digite seu email' className="p-4 bg-white"/>
+            <button className="w-1/3 p-2 mt-3 bg-blue-700 text-white">inscrever-se</button>
         </div>
     </div>
   )
