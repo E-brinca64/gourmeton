@@ -1,5 +1,5 @@
 import { FaClock, FaDollarSign, FaHeart } from 'react-icons/fa'
-
+import alimentos from "../assets/alimento.jpg"
 function WhyChoose() {
   return (
     <div className="bg-gray-800 py-16 px-4">
@@ -7,11 +7,8 @@ function WhyChoose() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <div className="bg-gray-700 rounded-lg h-80 flex items-center justify-center">
-              <div className="text-gray-400 text-center">
-                <div className="w-24 h-24 bg-gray-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">📱</span>
-                </div>
-                <p className="text-sm">Placeholder de Imagem/Vídeo</p>
+              <div className="text-gray-400 text-center">                
+                <img src={alimentos} alt="img" className='rounded-3xl' />
               </div>
             </div>
           </div>
@@ -25,8 +22,8 @@ function WhyChoose() {
                   <FaClock className="text-white text-lg" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Economize Tempo</h3>
-                  <p className="text-gray-300">Nosso app automatiza tarefas repetitivas, devolvendo tempo valioso para focar no que mais importa.</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Entrega Rápida</h3>
+                  <p className="text-gray-300"> Receba seus pratos favoritos em poucos minutos, com agilidade e confiabilidade.</p>
                 </div>
               </div>
               
@@ -35,8 +32,8 @@ function WhyChoose() {
                   <FaDollarSign className="text-white text-lg" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Reduza Custos</h3>
-                  <p className="text-gray-300">Otimizando seu fluxo de trabalho, nosso app ajuda você a reduzir gastos desnecessários e maximizar recursos.</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Preços Justos</h3>
+                  <p className="text-gray-300">Aproveite refeições de qualidade com valores acessíveis e promoções exclusivas.</p>
                 </div>
               </div>
               
@@ -45,8 +42,8 @@ function WhyChoose() {
                   <FaHeart className="text-white text-lg" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Melhore o Bem-Estar</h3>
-                  <p className="text-gray-300">Menos estresse, mais organização. Nosso app ajuda a criar equilíbrio na sua rotina diária.</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Experiência Confiável</h3>
+                  <p className="text-gray-300">Milhares de clientes satisfeitos confiam no GourmetOn todos os dias</p>
                 </div>
               </div>
             </div>
