@@ -23,24 +23,24 @@ function Testimonials() {
   ]
 
   return (
-    <div className="bg-white py-16 px-4">
+    <div className="bg-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">O Que Nossos Usuários Dizem</h2>
-          <p className="text-lg text-gray-600">Feedback real de pessoas que usam nosso app todos os dias</p>
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">O Que Nossos Usuários Dizem</h2>
+          <p className="text-base lg:text-lg text-gray-600">Feedback real de pessoas que usam nosso app todos os dias</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-100">
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <FaStar key={i} className="text-amber-400 text-lg" />
+                  <FaStar key={i} className="text-amber-400 text-base lg:text-lg" />
                 ))}
               </div>
-              <p className="text-gray-600 mb-6 italic">"{testimonial.content}"</p>
+              <p className="text-base text-gray-600 mb-6 italic leading-relaxed">"{testimonial.content}"</p>
               <div className="border-t pt-4">
-                <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
+                <h4 className="font-bold text-gray-800 text-base">{testimonial.name}</h4>
                 <p className="text-sm text-gray-500">{testimonial.role}</p>
               </div>
             </div>
