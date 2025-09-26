@@ -1,4 +1,4 @@
-🌱 landing page 
+🌱 landing page GourmetOn
 
 Projeto desenvolvido em React para a disciplina de web development.
 
